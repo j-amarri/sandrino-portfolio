@@ -1,3 +1,20 @@
-.product-image {
-  width: 500px;
+.product-title {
+  font-weight: 700;
+  font-size: 1.2rem;
 }
+
+.product-tags {
+  font-size: 0.8rem;
+}
+
+.product-hover-text {
+  color: #f58549;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* .product-hover-background {
+  height: 350px;
+  width: 350px;
+  background-color: red;
+} */
