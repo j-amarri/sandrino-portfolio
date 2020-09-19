@@ -25,7 +25,26 @@ h5 {
 
 .navbar {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+}
+
+.logo {
+  color: #585123;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-link {
+  color: #585123;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  color: #585123;
 }
 
 .intro-text {
@@ -36,7 +55,6 @@ h5 {
 }
 
 .intro-subtext {
-  font-weight: 700;
   max-width: 900px;
   margin-top: 30px;
 }
@@ -48,4 +66,34 @@ h5 {
 
 .product-card {
   margin-bottom: 30px;
+}
+
+.skills-section p {
+  margin: 20px 0;
+}
+
+.skills-section h5 {
+  text-decoration: underline;
+}
+
+.about-picture {
+  width: 300px;
+  box-shadow: 10px 10px #585123;
+}
+
+footer {
+  height: 100px;
+  text-align: center;
+}
+
+.underline-text {
+  text-decoration: none;
+  background-image: linear-gradient(180deg, transparent 65%, #f58549 0);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.4s ease;
+}
+
+.underline-text:hover {
+  background-size: 100% 100%;
 }

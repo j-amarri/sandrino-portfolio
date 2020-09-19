@@ -10,23 +10,22 @@ const Product = props => {
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '50% 50%',
-    opacity: '0.5',
-    marginBottom: '20px'
+    marginBottom: '20px',
+    boxShadow: '10px 10px #585123'
   };
-
-  // function changeBackground(event) {
-  //   event.target.style.background = 'red';
-  // }
 
   return (
     <div>
       <div
         style={productImage}
-        //onMouseOver={changeBackground}
         onMouseEnter={() => setIsShown(true)}
         onMouseLeave={() => setIsShown(false)}
       >
-        {isShown && <p className="product-hover-text">{props.description}</p>}
+        {isShown && (
+          <div class="overlay">
+            <p className="product-hover-text">{props.description}</p>
+          </div>
+        )}
       </div>
       <h3 className="product-title">{props.title}</h3>
       <p className="product-tags">{props.skills}</p>

@@ -8,13 +8,12 @@
 }
 
 .product-hover-text {
-  color: #f58549;
+  padding: 20px;
+  color: #f2a65a;
   font-size: 20px;
   font-weight: 700;
 }
 
-/* .product-hover-background {
-  height: 350px;
-  width: 350px;
-  background-color: red;
-} */
+.overlay {
+  background-color: #585123;
+}

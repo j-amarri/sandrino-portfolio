@@ -14,26 +14,39 @@ function App() {
       <Container>
         <section className="intro-section">
           <Navbar className="navbar">
-            <Navbar.Brand>Sandrino's website</Navbar.Brand>
-            <Nav.Link>Recent works</Nav.Link>
-            <Nav.Link>About</Nav.Link>
+            <Navbar.Brand className="underline-text logo">
+              sandrino
+            </Navbar.Brand>
+            <div className="navbar-links">
+              <Nav.Link className="underline-text navbar-link">
+                projects
+              </Nav.Link>
+              <Nav.Link className="underline-text navbar-link">about</Nav.Link>
+            </div>
           </Navbar>
           <Row>
             <Col>
-              <h1 className="intro-text">- ciao, my name is Alessandro.</h1>
+              <h1 className="intro-text">
+                - ciao, my name is{' '}
+                <span className="underline-text">Alessandro</span>.
+              </h1>
               <h2 className="intro-subtext">
-                I'm a product owner & expert based in Amsterdam, helping teams
-                to define and deliver successful products.
+                I'm a{' '}
+                <span className="underline-text">product owner & expert</span>{' '}
+                based in Amsterdam, helping teams to define and deliver
+                successful products.
               </h2>
             </Col>
           </Row>
         </section>
         <section className="showcase-section">
-          <h3 className="section-title">Selected projects</h3>
+          <h3 className="section-title">
+            <span className="underline-text">Selected projects</span>
+          </h3>
           <Row>
             <Col className="product-card">
               <Product
-                image="/ALDI.png"
+                image="/aldi-dark.png"
                 title="app/web ecommerce solution"
                 skills="agile delivery, stakeholder management, roadmapping"
                 description="New ecommerce proposition for global food and retail leader. The project was operated globally, with multiple teams involved and continuous delivery."
@@ -41,7 +54,7 @@ function App() {
             </Col>
             <Col className="product-card">
               <Product
-                image="/MeBeSafe.png"
+                image="/mebesafe-dark.png"
                 title="MVP definition & validation"
                 skills="MVP delivery, ideation, product strategy & definition"
                 description="We worked with a leader in the utility sector to create a product to be validated with their users."
@@ -49,7 +62,7 @@ function App() {
             </Col>
             <Col className="product-card">
               <Product
-                image="/JDE.png"
+                image="/jde-dark.png"
                 title="MVP end-to-end"
                 skills="Product ownership, agile delivery, requirements"
                 description="Three months projects for a Dutch leader in the food & beverage sector, where we moved from initial concept idea to final delivery of functioning and testable product."
@@ -59,7 +72,7 @@ function App() {
           <Row>
             <Col className="product-card">
               <Product
-                image="/seabury.png"
+                image="/seabury-dark.png"
                 title="Dashboard & data analysis"
                 skills="Ideation & product mapping, agile delivery"
                 description="Definition and delivery of a dashboard for a global leader in the airline sector, to better capitalise on their data."
@@ -67,7 +80,7 @@ function App() {
             </Col>
             <Col className="product-card">
               <Product
-                image="/PLUS.png"
+                image="/plus-dark.png"
                 title="PLUS app"
                 skills="Data analysis, UX/UI improvements"
                 description="Helped in the data analysis of their users behaviours, to define UX/UI improvements and have a better understanding of the blockers in their conversion funnel."
@@ -75,7 +88,7 @@ function App() {
             </Col>
             <Col className="product-card">
               <Product
-                image="/smartify.jpg"
+                image="/smartify-dark.png"
                 title="Smartify app"
                 skills="Business Analysis, requirements definition"
                 description="Worked together with the initial team of Smartify, where I helped defining requirements and crafting the next items we would work on"
@@ -83,39 +96,88 @@ function App() {
             </Col>
           </Row>
         </section>
-        <section>
+        <section className="skills-section">
+          <hr style={{ marginBottom: '30px' }} />
           <Row>
             <Col>
-              <h3 className="section-title">Where do I thrive?</h3>
+              <h3 className="section-title">
+                <span className="underline-text">What do I thrive at?</span>
+              </h3>
             </Col>
             <Col>
               <h5>Product vision</h5>
               <p>
-                - defining simply crafted products, that focus on the right
-                action and have user at their forefront
+                Defining simply crafted products, that focus on the right action
+                and have user at their forefront
               </p>
               <h5>Product delivery</h5>
               <p>
-                - working closely to each and every member of the team to define
+                Working closely to each and every member of the team to define
                 and ship great products
-              </p>
-              <h5>Project untangling</h5>
-              <p>
-                - I enjoy the tension of having a blank canvas and starting a
-                project from scratch. Complex environments with multiple
-                stakeholders and different expertise is where I thrive.
               </p>
               <h5>MVP end-to-end</h5>
               <p>
                 I love MVPs due to their fast paced nature, and the skillset
                 required. I can successfully lead the end to end process.
               </p>
+              <h5>Project untangling</h5>
+              <p>
+                I enjoy the tension of having a blank canvas and starting a
+                project from scratch. Complex environments with multiple
+                stakeholders and different expertise is where I thrive.
+              </p>
+            </Col>
+          </Row>
+        </section>
+        <section className="coding-section">
+          <hr style={{ marginBottom: '30px' }} />
+          <Row>
+            <Col>
+              <h3 className="section-title">
+                <span className="underline-text">Coding</span>
+              </h3>
+            </Col>
+            <Col>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Aliquam repellendus fugiat dolorem cupiditate excepturi voluptas
+                labore? Reprehenderit quia laudantium beatae in, adipisci
+                praesentium rerum porro suscipit, a harum voluptatibus
+                provident.
+              </p>
             </Col>
           </Row>
         </section>
         <section className="about-section">
-          <h3 className="section-title">About</h3>
+          <hr style={{ marginBottom: '30px' }} />
+          <Row>
+            <Col>
+              <h3 className="section-title">
+                <span className="underline-text">About</span>
+              </h3>
+              <img
+                className="about-picture"
+                src="/sandrino.png"
+                alt="sandrino"
+              />
+            </Col>
+            <Col>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Explicabo, distinctio accusantium? Magni maiores inventore
+                facilis animi minus saepe, quas soluta aspernatur incidunt
+                praesentium ipsa, reprehenderit mollitia quibusdam minima fuga.
+                Odit.
+              </p>
+            </Col>
+          </Row>
         </section>
+        <footer>
+          <hr />
+          <p>
+            made by <a href="https://github.com/j-amarri">@sandrino</a>
+          </p>
+        </footer>
       </Container>
     </div>
   );
