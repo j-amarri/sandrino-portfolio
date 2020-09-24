@@ -99,12 +99,12 @@ function App() {
         <section className="skills-section">
           <hr style={{ marginBottom: '30px' }} />
           <Row>
-            <Col>
+            <Col xs={12} md={6}>
               <h3 className="section-title">
                 <span className="underline-text">What do I thrive at?</span>
               </h3>
             </Col>
-            <Col>
+            <Col xs={12} md={6}>
               <h5>Product vision</h5>
               <p>
                 Defining simply crafted products, that have users at their
@@ -132,12 +132,12 @@ function App() {
         <section className="coding-section">
           <hr style={{ marginBottom: '30px' }} />
           <Row>
-            <Col>
+            <Col xs={12} md={6}>
               <h3 className="section-title">
                 <span className="underline-text">Coding</span>
               </h3>
             </Col>
-            <Col>
+            <Col xs={12} md={6}>
               <p>
                 In order to keep my left brain going, and keep myself up to date
                 with technologies, I recently picked up development. I enjoy
@@ -151,7 +151,7 @@ function App() {
         <section className="about-section">
           <hr style={{ marginBottom: '30px' }} />
           <Row>
-            <Col>
+            <Col xs={12} md={6}>
               <h3 className="section-title">
                 <span className="underline-text">About</span>
               </h3>
@@ -161,7 +161,7 @@ function App() {
                 alt="sandrino"
               />
             </Col>
-            <Col>
+            <Col xs={12} md={6}>
               <p>
                 My curiosity and experience in a wide range of disciplines gave
                 me a unique insight in how to define, deliver, and ship a
@@ -170,7 +170,8 @@ function App() {
                 experience working closely to designers and developers, allows
                 me to talk with the entire team, being able to push in the right
                 direction and motivate the different members to make the best
-                out of their talent!
+                out of their talent! Contact me at amarri.alessandro@gmail.com
+                to collaborate.
               </p>
             </Col>
           </Row>

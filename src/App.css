@@ -76,6 +76,10 @@ h5 {
   text-decoration: underline;
 }
 
+.about-section p {
+  margin-top: 30px;
+}
+
 .about-picture {
   width: 300px;
   box-shadow: 10px 10px #585123;
