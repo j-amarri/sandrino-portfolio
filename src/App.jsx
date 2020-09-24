@@ -107,13 +107,13 @@ function App() {
             <Col>
               <h5>Product vision</h5>
               <p>
-                Defining simply crafted products, that focus on the right action
-                and have user at their forefront
+                Defining simply crafted products, that have users at their
+                forefront, and focus on the right actions.
               </p>
               <h5>Product delivery</h5>
               <p>
                 Working closely to each and every member of the team to define
-                and ship great products
+                and ship great products. My knowledge of
               </p>
               <h5>MVP end-to-end</h5>
               <p>
@@ -139,12 +139,12 @@ function App() {
             </Col>
             <Col>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Aliquam repellendus fugiat dolorem cupiditate excepturi voluptas
-                labore? Reprehenderit quia laudantium beatae in, adipisci
-                praesentium rerum porro suscipit, a harum voluptatibus
-                provident.
+                In order to keep my left brain going, and keep myself up to date
+                with technologies, I recently picked up development. I enjoy
+                coding to turn ideas into motion. Some of the tools that I have
+                been using: React, Express JS, Node JS.
               </p>
+              <button>github</button>
             </Col>
           </Row>
         </section>
@@ -163,11 +163,14 @@ function App() {
             </Col>
             <Col>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo, distinctio accusantium? Magni maiores inventore
-                facilis animi minus saepe, quas soluta aspernatur incidunt
-                praesentium ipsa, reprehenderit mollitia quibusdam minima fuga.
-                Odit.
+                My curiosity and experience in a wide range of disciplines gave
+                me a unique insight in how to define, deliver, and ship a
+                product, thourghout the entire lifecycle. My background allows
+                me to understand the logic and why we are doing things, and my
+                experience working closely to designers and developers, allows
+                me to talk with the entire team, being able to push in the right
+                direction and motivate the different members to make the best
+                out of their talent!
               </p>
             </Col>
           </Row>
