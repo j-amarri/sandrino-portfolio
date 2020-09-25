@@ -22,7 +22,7 @@ const Product = props => {
         onMouseLeave={() => setIsShown(false)}
       >
         {isShown && (
-          <div class="overlay">
+          <div className="overlay">
             <p className="product-hover-text">{props.description}</p>
           </div>
         )}
