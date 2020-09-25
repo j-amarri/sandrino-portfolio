@@ -211,11 +211,11 @@ function App() {
                 fields. I always try to improve team dynamics and ways of
                 working, in order to enable the best possible communication. I'm
                 truly convinced that it is a main driver of quality and
-                motivation!
+                motivation.
               </p>
               <p>
                 I'm always available up to hear your story and how we could help
-                eachtoher! Drop me a line, or Linkedin as well.
+                eachtoher - drop me a line, or feel free to connect on LinkedIn!
               </p>
               <a
                 href="https://www.linkedin.com/in/alessandroamarri/"
